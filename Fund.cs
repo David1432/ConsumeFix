@@ -8,8 +8,7 @@ namespace ConsumeFix
 {
     internal class Fund
     {
-        public Dictionary<string,float> buy = new Dictionary<string,float>();
-        public Dictionary<string, float> sell = new Dictionary<string, float>();
+       
         public string accountName = "";
 
         public Fund(string account)
